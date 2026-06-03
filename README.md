@@ -1,6 +1,6 @@
-# LinCheat: Linux Process Memory Scanner and Editor
+# VibeCheat: Linux Process Memory Scanner and Editor
 
-LinCheat is a memory scanning and editing tool for Linux (tested on Arch Linux) written in Rust. It functions similarly to Cheat Engine, allowing you to search for, filter, and edit variables inside a target process's memory space using a high-fidelity Web Dashboard.
+VibeCheat is a memory scanning and editing tool for Linux (tested on Arch Linux) written in Rust. It functions similarly to Cheat Engine, allowing you to search for, filter, and edit variables inside a target process's memory space using a high-fidelity Web Dashboard.
 
 ## Features
 1. **Target Selection:** Search and attach to target processes directly from the sidebar.
@@ -21,14 +21,14 @@ cat /proc/sys/kernel/yama/ptrace_scope
 
 If it outputs `1`, you must run the server binary with `sudo` (root privileges) to read and write arbitrary process memory.
 
-### Compile and Start LinCheat Server
+### Compile and Start VibeCheat Server
 1. Compile the server:
    ```bash
    cargo build --release
    ```
 2. Launch the server (with `sudo` if ptrace is restricted):
    ```bash
-   sudo ./target/release/lincheat
+   sudo ./target/release/vibecheat
    ```
    *The server will start listening on `http://localhost:5000`.*
 
