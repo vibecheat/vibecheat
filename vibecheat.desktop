@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=VibeCheat
+Comment=Linux Process Memory Scanner & Speedhack
+Exec=vibecheat
+Icon=vibecheat
+Terminal=false
+Categories=Game;Utility;
+Keywords=cheat;engine;scan;memory;speedhack;
